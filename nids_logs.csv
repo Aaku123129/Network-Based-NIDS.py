@@ -1,0 +1,21 @@
+timestamp,src_ip,dst_ip,protocol,size,payload,detections,responses
+2025-08-03 17:58:45,213.50.208.27,192.168.1.1,SMTP,1162,suspicious activity detected,Signature: 'suspicious' in payload from 213.50.208.27,Blocked traffic from 213.50.208.27
+2025-08-03 17:58:45,42.131.97.18,192.168.1.1,RDP,425,normal traffic,,
+2025-08-03 17:58:46,162.206.148.241,192.168.1.1,RDP,1046,SQL injection attempt,Signature: 'injection' in payload from 162.206.148.241,Blocked traffic from 162.206.148.241
+2025-08-03 17:58:46,195.22.62.235,192.168.1.1,RDP,1715,brute force attack in progress,Signature: 'attack' in payload from 195.22.62.235,Blocked traffic from 195.22.62.235
+2025-08-03 17:58:46,78.220.137.244,192.168.1.1,RDP,220,SQL injection attempt,Signature: 'injection' in payload from 78.220.137.244,Blocked traffic from 78.220.137.244
+2025-08-03 17:58:46,195.59.98.155,192.168.1.1,HTTP,1676,brute force attack in progress,Signature: 'attack' in payload from 195.59.98.155,Blocked traffic from 195.59.98.155
+2025-08-03 17:58:47,116.216.232.30,192.168.1.1,DNS,1668,regular HTTP request,,
+2025-08-03 17:58:47,195.108.74.179,192.168.1.1,DNS,1577,normal traffic,,
+2025-08-03 17:58:47,26.43.113.184,192.168.1.1,FTP,1574,normal traffic,,
+2025-08-03 17:58:47,24.251.134.207,192.168.1.1,RDP,1456,XSS attempt <script>alert(1)</script>,Signature: 'xss' in payload from 24.251.134.207,Blocked traffic from 24.251.134.207
+2025-08-03 17:58:47,250.83.158.118,192.168.1.1,RDP,1293,malware signature found,Signature: 'malware' in payload from 250.83.158.118,Blocked traffic from 250.83.158.118
+2025-08-03 17:58:48,120.141.176.193,192.168.1.1,HTTPS,208,DDoS traffic detected,Signature: 'ddos' in payload from 120.141.176.193,Blocked traffic from 120.141.176.193
+2025-08-03 17:58:48,21.212.219.131,192.168.1.1,HTTPS,1922,suspicious activity detected,Signature: 'suspicious' in payload from 21.212.219.131,Blocked traffic from 21.212.219.131
+2025-08-03 17:58:49,223.7.166.181,192.168.1.1,HTTPS,1242,XSS attempt <script>alert(1)</script>,Signature: 'xss' in payload from 223.7.166.181,Blocked traffic from 223.7.166.181
+2025-08-03 17:58:49,81.108.49.219,192.168.1.1,RDP,1559,regular HTTP request,,
+2025-08-03 17:58:49,111.214.11.47,192.168.1.1,SMTP,962,DDoS traffic detected,Signature: 'ddos' in payload from 111.214.11.47,Blocked traffic from 111.214.11.47
+2025-08-03 17:58:49,9.90.83.102,192.168.1.1,HTTPS,472,brute force attack in progress,Signature: 'attack' in payload from 9.90.83.102,Blocked traffic from 9.90.83.102
+2025-08-03 17:58:49,219.120.99.52,192.168.1.1,DNS,236,login attempt,,
+2025-08-03 17:58:50,135.149.224.211,192.168.1.1,DNS,1044,malware signature found,Signature: 'malware' in payload from 135.149.224.211,Blocked traffic from 135.149.224.211
+2025-08-03 17:58:50,243.41.179.235,192.168.1.1,HTTP,1094,SQL injection attempt,Signature: 'injection' in payload from 243.41.179.235,Blocked traffic from 243.41.179.235
